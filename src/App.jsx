@@ -46,7 +46,7 @@ const briefs = [
       "Existing Goethe-Institut perception and channel presence.",
     ],
     tension:
-      "Young people may not be rejecting German itself — more likely, they're rejecting how it gets presented. School, difficulty, obligation. Not a language connected to anything they actually follow.",
+      "Young people may not be rejecting German itself — more likely, they're rejecting how it gets presented. School, difficulty, obligation. It could possibly not feel like a language connected to anything they actually follow.",
     opportunity:
       'Move German from “a subject I have to study” to “a language that gives me access to things I already care about.”',
     skepticism: [
