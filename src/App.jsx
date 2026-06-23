@@ -10,10 +10,10 @@ const lenses = [
 ];
 
 const LENS_SECTIONS = {
-  "Trust & Reputation":  ["unpacked", "scepticism", "watchouts", "validate"],
+  "Trust & Reputation":  ["unpacked", "skepticism", "watchouts", "validate"],
   "Cultural Relevance":  ["opportunity", "personas", "activations"],
   "Behavior Change":     ["unpacked", "start", "routes", "validate"],
-  "Creative Risk":       ["scepticism", "routes", "watchouts"],
+  "Creative Risk":       ["skepticism", "routes", "watchouts"],
 };
 
 const DISCLAIMER =
@@ -116,7 +116,7 @@ const briefs = [
         "That feels relevant here. If the brief is about making German feel closer to young people, I would not only ask how to make German sound useful or cool. I would ask what parts of German culture already travel without translation. What people, gestures, sounds, rituals, clubs, creators, foods, objects, or internet references already make Germany feel present in everyday life?",
         "The more useful question might be: where is Germany already showing up, and how can the language become connected to that?",
       ],
-      lookInto: "football, music scenes, creators, fashion references, design objects, food rituals, internet jokes, travel dreams, school associations, and anything young people already copy or recognise before anyone explains it.",
+      lookInto: "football, music scenes, creators, fashion references, design objects, food rituals, internet jokes, travel dreams, school associations, and anything young people already copy or recognize before anyone explains it.",
     },
     lensInsights: {
       "Trust & Reputation":
@@ -133,11 +133,11 @@ const briefs = [
     id: "lumo-rail",
     number: "02",
     title: "Lumo: Low-Cost, Low-Carbon Rail",
-    tag: "Launch / Sustainability / Behaviour Change",
+    tag: "Launch / Sustainability / Behavior Change",
     color: { bg: "#f5c49a", tab: "#9a6030" },
     source: "Based on public Grayling project work — used as sample input.",
     client:
-      "Lumo is launching as a new electric rail operator between London and Scotland. The company needs to persuade travellers who might normally fly to consider rail instead, while building credibility with passengers, media, government, and political stakeholders.",
+      "Lumo is launching as a new electric rail operator between London and Scotland. The company needs to persuade travelers who might normally fly to consider rail instead, while building credibility with passengers, media, government, and political stakeholders.",
     surface: "Launch a new rail brand and convince people to take the train instead of flying.",
     firstQuestions: [
       "Why are people currently choosing air over rail for this journey?",
@@ -148,12 +148,12 @@ const briefs = [
     ],
     researchAreas: [
       "Train vs. flight decision journeys.",
-      "Price comparison behaviour.",
+      "Price comparison behavior.",
       "Consumer perceptions of rail reliability.",
       "Pandemic-era travel hesitation.",
       "Climate-conscious travel discourse.",
       "Political and media narratives around rail infrastructure.",
-      "Regional pride and city-to-city travel behaviour.",
+      "Regional pride and city-to-city travel behavior.",
       "Customer service pain points in rail.",
     ],
     tension:
@@ -169,7 +169,7 @@ const briefs = [
     ],
     personas: [
       {
-        name: "The Price-First Traveller",
+        name: "The Price-First Traveler",
         description: "Open to greener travel, but only if the value is immediate and clear.",
       },
       {
@@ -227,7 +227,7 @@ const briefs = [
       "Which claim lands hardest: price, climate, comfort, convenience, or novelty?",
       "What would actually make habitual flyers switch?",
       "What proof points build trust fastest for a brand nobody's heard of?",
-      "Which stakeholders could legitimise the launch?",
+      "Which stakeholders could legitimize the launch?",
       "What questions need to be answered before someone buys a ticket?",
     ],
     rationale:
@@ -261,21 +261,21 @@ const briefs = [
     color: { bg: "#f0e898", tab: "#908020" },
     source: "Based on public Grayling project work — used as sample input.",
     client:
-      "Primark is expanding across Central and Eastern Europe and needs to build a positive, recognisable brand identity in new markets while communicating affordability, style, and more sustainable choices in a way that earns consumer trust.",
+      "Primark is expanding across Central and Eastern Europe and needs to build a positive, recognizable brand identity in new markets while communicating affordability, style, and more sustainable choices in a way that earns consumer trust.",
     surface: "Build awareness and positive perception for Primark across CEE markets.",
     firstQuestions: [
       "What does Primark already mean to people in these markets, if anything?",
       "Is the strongest entry point price, fashion, access, store experience, sustainability, or novelty?",
       "How do you build excitement around store openings without making the brand feel purely transactional?",
-      "How sceptical are consumers about affordable fashion brands making sustainability claims?",
+      "How skeptical are consumers about affordable fashion brands making sustainability claims?",
       "What needs to be consistent across CEE, and what needs to feel locally specific?",
     ],
     researchAreas: [
       "Consumer perception of Primark in each market.",
       "Affordable fashion discourse.",
-      "Sustainability scepticism and greenwashing concerns.",
+      "Sustainability skepticism and greenwashing concerns.",
       "Local influencer ecosystems.",
-      "Retail launch behaviour and store-opening hype.",
+      "Retail launch behavior and store-opening hype.",
       "Competitor positioning from H&M, Zara, Reserved, Sinsay, and C&A.",
       "Fashion content on TikTok and Instagram across Poland, Czech Republic, Slovakia, Romania, and Hungary.",
       "Local media narratives around retail, affordability, and sustainability.",
@@ -298,7 +298,7 @@ const briefs = [
           "Wants style and affordability, but still wants the brand to feel current and worth talking about.",
       },
       {
-        name: "The Sustainability-Sceptical Consumer",
+        name: "The Sustainability-Skeptical Consumer",
         description:
           "Doesn't reject affordable fashion outright, but needs something specific before accepting responsibility claims.",
       },
@@ -325,7 +325,7 @@ const briefs = [
           "If sustainability is part of the brand story, make the claims concrete and visible. Vague responsibility language does more damage than saying nothing.",
       },
       {
-        name: "Adapt locally, stay recognisable",
+        name: "Adapt locally, stay recognizable",
         description:
           "Pair the global brand with local creators and references in each market. Poland and Romania are different audiences — the campaign should reflect that.",
       },
@@ -363,18 +363,18 @@ const briefs = [
       angle: "My angle: what should the brand keep as it enters a new market?",
       body: [
         "I actually shop at Primark, so I do not think about the brand only as affordable fashion. The appeal is also the store experience — easy, low-pressure, fun to browse, and occasionally you find something unexpectedly good. That matters because if Primark enters a new market and only leads with price, the brand starts to feel flat.",
-        "This reminds me of a creative direction project I did for Etro, even though the brands are completely different. With Etro, I was thinking about what happens when a brand starts moving toward what the category seems to reward and loses sight of what makes it recognisable. I wanted to pull Etro back toward textile heritage, pattern, warmth, and a more playful sense of luxury. The creative directors who critiqued my work liked that because it made the brand feel less stiff and more itself.",
-        "For Primark in CEE, I would think about a similar identity question in a different market context. As Primark expands across countries, what parts of the brand need to stay consistent, and what parts need to be translated locally? Price is the entry point. Sustainability has to be specific enough to hold up in markets where greenwashing scepticism is already high. Local creators and media matter — the question is whether they make the brand feel genuinely rooted somewhere, or just amplified.",
+        "This reminds me of a creative direction project I did for Etro, even though the brands are completely different. With Etro, I was thinking about what happens when a brand starts moving toward what the category seems to reward and loses sight of what makes it recognizable. I wanted to pull Etro back toward textile heritage, pattern, warmth, and a more playful sense of luxury. The creative directors who critiqued my work liked that because it made the brand feel less stiff and more itself.",
+        "For Primark in CEE, I would think about a similar identity question in a different market context. As Primark expands across countries, what parts of the brand need to stay consistent, and what parts need to be translated locally? Price is the entry point. Sustainability has to be specific enough to hold up in markets where greenwashing skepticism is already high. Local creators and media matter — the question is whether they make the brand feel genuinely rooted somewhere, or just amplified.",
         "So I would approach the brief by asking what Primark should preserve as it grows: access, everyday style, browsing, discovery, and the feeling that fashion does not have to be so serious. Then I would look at how those qualities should show up differently in each CEE market.",
       ],
     },
     lensInsights: {
       "Trust & Reputation":
-        "Shoppers might be excited. But vague sustainability claims can do more damage than saying nothing — especially in markets where greenwashing scepticism is already high.",
+        "Shoppers might be excited. But vague sustainability claims can do more damage than saying nothing — especially in markets where greenwashing skepticism is already high.",
       "Cultural Relevance":
         "CEE isn't one audience. A brand that arrives without local awareness will feel imported even when it's trying to be friendly.",
       "Behavior Change":
-        "Curiosity doesn't always translate to a first visit. Store openings are the best moment to turn awareness into actual behaviour.",
+        "Curiosity doesn't always translate to a first visit. Store openings are the best moment to turn awareness into actual behavior.",
       "Creative Risk":
         "Greenwashing, influencer overload, or treating Poland and Romania as the same market — any of these would undermine the launch before it's begun.",
     },
@@ -382,7 +382,7 @@ const briefs = [
   {
     id: "new-brief",
     number: "04",
-    title: "Analyse a new brief",
+    title: "Analyze a new brief",
     tag: "AI backend concept",
     color: { bg: "#dedad3", tab: "#6a6560" },
     isPlaceholder: true,
@@ -574,7 +574,7 @@ function BriefcaseView({ onSelectBrief }) {
             Why I made this
           </p>
           <p className="text-xs text-neutral-500 leading-[1.8]">
-            During an HR screening call, the recruiter told me that Grayling encourages creative ideas and that even in a big company, your voice gets heard. So I had an idea and decided to follow through with it — partly because it felt genuinely relevant to the role I was looking at.
+            During an HR screening call, the recruiter told me that Grayling encourages creative ideas and that even in a big company, your voice gets heard. So I had an idea and decided to follow through with it, also partly because it felt relevant to the role I was looking at.
           </p>
           <p className="mt-4 text-xs text-neutral-400 leading-[1.8]">
             Gray.i Briefs is a prototype for an AI-assisted strategy workflow. It takes a rough client brief and produces a structured first pass: surface ask, early questions, hidden tension, audience doubts, possible routes, and risks. Then a human strategist goes through it and pushes back.
@@ -870,8 +870,8 @@ function BriefDetailView({ brief, lens, onChangeLens, onBack }) {
             {/* 05 What people might doubt */}
             <EditSection
               label="What people might doubt"
-              dimmed={dim("scepticism")}
-              highlighted={hi("scepticism")}
+              dimmed={dim("skepticism")}
+              highlighted={hi("skepticism")}
               highlightColor={brief.color.tab}
             >
               <motion.div
