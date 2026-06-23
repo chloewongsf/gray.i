@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
@@ -661,6 +661,7 @@ function BriefDetailView({ brief, lens, onChangeLens, onBack }) {
   const { scrollYProgress } = useScroll();
   const scaleX = useTransform(scrollYProgress, [0, 1], [0, 1]);
   const [tooltipVisible, setTooltipVisible] = useState(false);
+  const strategistRef = useRef(null);
 
   const personaGrid =
     brief.personas.length > 3 ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 md:grid-cols-3";
@@ -708,6 +709,13 @@ function BriefDetailView({ brief, lens, onChangeLens, onBack }) {
             <h1 className="mt-3 text-5xl md:text-7xl font-semibold tracking-tight leading-none">
               {brief.title}
             </h1>
+
+            <button
+              onClick={() => strategistRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              className="mt-5 text-xs text-neutral-600 underline underline-offset-4 hover:text-neutral-900 transition-colors"
+            >
+              Go to my personal notes on this →
+            </button>
 
             {/* Strategy lens selector */}
             <div className="mt-8">
@@ -990,7 +998,7 @@ function BriefDetailView({ brief, lens, onChangeLens, onBack }) {
 
             {/* Human strategist notes — always full opacity */}
             {(brief.strategistEssay || brief.strategistNotes) && (
-              <section className="border-t border-neutral-900 pt-8 pb-14">
+              <section ref={strategistRef} className="border-t border-neutral-900 pt-8 pb-14">
                 <motion.div
                   initial={{ opacity: 0, y: 22 }}
                   whileInView={{ opacity: 1, y: 0 }}
